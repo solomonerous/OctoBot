@@ -17,4 +17,4 @@ pur
 
 pylint
 
-sentry-sdk==1.29.2
+sentry-sdk==2.8.0
