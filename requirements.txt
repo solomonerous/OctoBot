@@ -10,11 +10,11 @@ trading-backend==1.2.26
 
 ## Others
 colorlog==6.8.0
-requests==2.31.0
+requests==2.32.2
 urllib3 # required by requests, used in imports: make sure it's always available
 packaging==23.2
 python-dotenv==1.0.0
-setuptools==69.0.3
+setuptools==70.0.0
 
 # Community
 websockets
@@ -29,7 +29,7 @@ realtime==1.0.0   # Supabase realtime lib (required by supabase and enforced to 
 
 # async http requests
 # avoid v3.10.0 as it is failing CI (<class 'RuntimeError'>: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86)
-aiohttp==3.9.5
+aiohttp==3.10.2
 
 # Experimental to prevent httpx.PoolTimeout
 httpcore==0.17.3  # to up to at least 1.0.2 (prevent default version when installing httpx which creates httpx.PoolTimeout)
